@@ -5,10 +5,10 @@ public class Sample {
     }
 }
 
-public interface Cat {
+public interface Item<T> {
     // interface of
     // player
     // enemy
     // score
-    void roar(String roar);
+    void draw(T t);
 }
